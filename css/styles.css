@@ -47,3 +47,25 @@ text-align: center;
 #drinks{
   padding-left: 15%;
 }
+.section-subscribe{
+  text-align: center;
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  color: white;
+  padding-bottom: 15%;
+}
+#sectionabout{
+  background-color: #F15A29;
+  color: white;
+  text-align: center;
+  padding-bottom: 6%
+}
+#clients{
+  border-right: solid 1px aliceblue;
+  border-left: solid 1px aliceblue;
+  border-top: solid 1px aliceblue;
+  border-bottom: solid 1px aliceblue;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-right: 10%;
+}
