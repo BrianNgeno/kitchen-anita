@@ -68,4 +68,47 @@ text-align: center;
   padding-left: 10%;
   padding-top: 10%;
   padding-right: 10%;
+  text-align: center;
+}
+#slide{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  padding-bottom: 10%;
+}
+#section-content2{
+  padding-bottom: 8%;
+}
+#slide{
+  color:#F15A29;
+  background-color: white;
+}
+#white{
+  background-color: white;
+  margin-top: 65px;
+  padding-top: 0%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#bar{
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+  border-color: grey;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 4%;
+  text-align: center;
+}
+#bar hover{
+    color: #66a3ff;
+}
+#customers{
+  align-items: center;
+}
+#heading1{
+  color:#F15A29;
+}
+#heading2{
+  color: #F15A29;
 }
