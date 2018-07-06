@@ -1,9 +1,37 @@
-.jumbotron{
-  background-image: url("assets/backgrounds/landing.jpg");
+#section-head{
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: fixed;
+  background-image: url("../assets/backgrounds/landing.jpg");
+
 }
-img{
-  align-items: center;
+#partytime{
+  background-color: #F15A29;
+  color:white;
+  text-align: center;
+  padding-bottom: 3%
 }
-.jumbotron{
-  height: 85%;
+#breakfast{
+background-image: url("../assets/foodtop/breakfast.jpg");
+color: white;
+padding-bottom: 5%;
+text-align: center;
+}
+#lunch{
+  background-image: url("../assets/foodtop/lunch.jpg");
+  color: white;
+  padding-bottom: 5%;
+  text-align: center;
+}
+#Dinner{
+  background-image: url("../assets/foodtop/dinner.jpg");
+  color: white;
+  padding-bottom: 5%;
+  text-align: center;
+}
+#HappyHour{
+  text-align: center;
+  background-color: white;
 }
