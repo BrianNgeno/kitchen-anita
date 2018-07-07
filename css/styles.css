@@ -1,3 +1,14 @@
+#btn{
+  background-color: white;
+  border-color:#F15A29;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  color: #F15A29;
+  margin-top: 16px;
+  margin-left: 16px;
+}
 #section-head{
   text-align: center;
   color: white;
