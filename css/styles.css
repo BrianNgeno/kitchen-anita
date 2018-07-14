@@ -1,6 +1,5 @@
 #email {
   opacity: 0.2;
-  filter: alpha(opacity=20);
   margin-left: 300px;
   margin-top: 20px;
   padding-right: 45px;
@@ -129,20 +128,15 @@
 }
 
 #slide {
-  color: #F15A29;
-  background-color: white;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   padding-bottom: 10%;
 }
 
 #white {
   background-color: white;
-  margin-top: 65px;
-  padding-top: 0%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-left: 3%;
+  color: orange;
+  margin-top: 5%;
+  margin-left: 7%;
 }
 
 #bar {
@@ -197,4 +191,47 @@
 #nav-bar1:hover {
   color: blue;
   cursor: pointer;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#Paris {
+  background-color: green;
+}
+
+#Tokyo {
+  background-color: blue;
+}
+
+#Oslo {
+  background-color: orange;
+}
+
+#defaultOpen {
+  color: #F15A29;
+}
+
+h4 {
+  color: #F15A29;
 }

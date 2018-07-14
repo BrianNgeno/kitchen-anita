@@ -95,22 +95,8 @@
   <div class="row">
     <div class="col-md-12">
       <div class="container" id="white">
-        <ul class="nav nav-bar" id="bar">
-          <div class="row">
-            <div class="col-md-3">
-          <li class="active"><a href="fast food"><h3>Fast Food</h3></a></li>
-        </div>
-        <div class="col-md-3">
-          <li><a href="drinks"><h3>Drink</h3></a></li>
-        </div>
-        <div class="col-md-3">
-          <li><a href="chicken"><h3>Chicken</h3></a></li>
-        </div>
-      <div class="col-md-3">
-          <li><a href="Rice"><h3>Rice</h3></a></li>
-        </div>
-      </div>
-        </ul>
+
+      <div id="London" class="tabcontent">
         <div class="chicken burger">
           <div class="row">
             <div class="col-md-4">
@@ -125,12 +111,31 @@
               <img src="assets/fastfood/chickenPizza.jpg">
               <h4>Chicken Pizza</h4>
             </div>
+      </div>
+      </div>
+      </div>
+      <div id="Paris" class="tabcontent">
+        <h3>Drinks</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      <div id="Tokyo" class="tabcontent">
+        <h3>Chicken</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="Oslo" class="tabcontent">
+        <h3>Rice</h3>
+        <p>Oslo is the capital of Norway.</p>
+      </div>
+      <button class="tablink" onclick="openCity('London', this, 'white')" id="defaultOpen">Fast Food</button>
+      <button class="tablink" onclick="openCity('Paris', this, 'green')">Drinks</button>
+      <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Chicken</button>
+      <button class="tablink" onclick="openCity('Oslo', this, 'orange')">RIce</button>
+
+
           </div>
         </div>
     </div>
   </div>
-</div>
-</div>
 <div class="clients" id="clients">
   <div class="row">
     <div class="col-md-6">
